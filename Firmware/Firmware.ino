@@ -36,11 +36,11 @@ unsigned char rawData[128];
 #define MODEPIN_N64 1
 #define MODEPIN_GC 2
 
-#define N64_PIN 7
+#define N64_PIN 5
 #define N64_PREFIX 9
 #define N64_BITCOUNT 32
 
-#define GC_PIN 5
+#define GC_PIN 7
 #define GC_PREFIX 25
 #define GC_BITCOUNT 64
 
