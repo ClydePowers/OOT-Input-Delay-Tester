@@ -7,7 +7,7 @@ Installation:
 1. Wire everything up as you can see in the schematic
 2. upload the sketch on to your arduino and open the Serial Monitor in the Arduino IDE3
 3. start gz and go into a dark place (like ganon's tower oob), stand right infront of a wall (so it takes 5frames for the deku nut to light up the screen)
-4. tape the Diode/Transistor in the top left of your screen
+4. tape the Diode/Transistor to the top left of your screen
 5. throw a deku nut
 6. the Serial Monitor should show you your input delay and average delay now
 7. repeat to get an average time (atleast 25 times)
