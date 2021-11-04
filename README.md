@@ -1,7 +1,7 @@
 OOT-Input-Lag-Tester
 
 ![alt text](https://github.com/ClydePowers/OOT-Input-Delay-Tester/blob/master/GC-Schematic.png?raw=true " Logo Title Text 1")
-You can also use a Photodiode/resistor and wire it up in the same way, value of the resistor depends on your Photodiode/Transistor/Resistor (I used 1000Ohm)
+You can also use a Photodiode/resistor and wire it up in the same way, value of the resistor depends on your Photodiode/Transistor/Resistor (I used 10k Ohm)
 
 Installation:
 1. Wire everything up as you can see in the schematic
