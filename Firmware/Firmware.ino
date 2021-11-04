@@ -3,11 +3,10 @@
 // Written by ClydePowers (https://github.com/ClydePowers/OOT-Input-Delay-Tester)
 // Original Code written by jaburns (https://github.com/jaburns/NintendoSpy)
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Press A+B to reset Counter and Avg. Delay
+// Press A to reset Counter and Avg. Delay
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-int BRIGHTNESS = 250; // Value depends on Photodiode/transistor/resistor, Resistor and the
-                      // Brightness of your Monitor
+int BRIGHTNESS = 250; // Value depends on Photodiode/transistor/resistor, Resistor and the Brightness of your Monitor
 int NUTDELAY = 250; // Throwing a Deku Nut in front off a wall takes 5frames until white flash
 long avgDelay = 0;
 long totalTime = 0;
@@ -186,7 +185,7 @@ inline void loop_GC()
         Serial.println(output);
     }
 
-    if (rawData[GC_PREFIX + 8] && rawData[GC_PREFIX + 7])
+    if (rawData[GC_PREFIX + 7])
     {
         counter = 0;
         totalTime = 0;
@@ -202,13 +201,6 @@ inline void loop_N64()
     if (checkPrefixN64())
     {
 
-
-        // code here
-        // instead of report.x it will have to be rawData[]; it will be N64_PREFIX + whatever bit C
-        // button is.
-
-
-        // sendRawData( N64_PREFIX , N64_BITCOUNT ); // dont need this anymore
     }
 }
 
