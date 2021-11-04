@@ -182,8 +182,7 @@ inline void loop_GC()
         totalTime += delayMS;
         avgDelay = totalTime / counter;
         output = "Input Delay: ";
-        output
-            = merkel + counter + " " + output + delayMS + "ms   Average Delay: " + avgDelay + "ms";
+        output = merkel + counter + " " + output + delayMS + "ms   Average Delay: " + avgDelay + "ms";
         Serial.println(output);
     }
 
