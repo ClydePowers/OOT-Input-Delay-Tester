@@ -15,3 +15,5 @@ Installation:
 If the sketch isnt working right off the bat you need to adjust the value from "int BRIGHTNESS" to a lower or higher number (upto 1023) this depend on the Diode/Transistor and the resistor you are using!
 
 The reason I choose a Transistor over a Diode is that I couldn't get any measurements with a Diode on a LCD Monitor, tho a Diode worked very well on my CRT.
+
+Demonstration Video: https://www.youtube.com/watch?v=MzTeuVLUS5I&t
