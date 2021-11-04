@@ -8,9 +8,8 @@
 
 int BRIGHTNESS = 250; // Value depends on Photodiode/transistor/resistor, Resistor and the
                       // Brightness of your Monitor
-int NUTDELAY = 250 // Throwing a Deku Nut in front off a wall takes 5frames until white flash
-    long avgDelay
-    = 0;
+int NUTDELAY = 250; // Throwing a Deku Nut in front off a wall takes 5frames until white flash
+long avgDelay = 0;
 long totalTime = 0;
 int counter = 0;
 unsigned long delayMS;
