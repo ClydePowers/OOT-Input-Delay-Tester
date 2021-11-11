@@ -7,7 +7,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 int BRIGHTNESS = 250; // Value depends on Photodiode/transistor/resistor, Resistor and the Brightness of your Monitor
-int NUTDELAY = 200;
+int NUTDELAY = 250;
 long avgDelay = 0;
 long totalTime = 0;
 int counter = 0;
